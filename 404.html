@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found | Rashal Jeet Singh</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+  <script>
+    (function() {
+      try {
+        var e = localStorage.getItem('theme');
+        if (e === 'dark') document.documentElement.classList.add('dark');
+        else if (!e && window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.classList.add('dark');
+      } catch(e) {}
+    })();
+  </script>
+  <style>
+    .error-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 70dvh;
+      text-align: center;
+      gap: 20px;
+    }
+    .error-code {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 6rem;
+      font-weight: 700;
+      color: var(--primary);
+      line-height: 1;
+      margin: 0;
+    }
+    .error-title {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0;
+    }
+    .error-desc {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: var(--muted-foreground);
+      font-size: 1.05rem;
+      max-width: 400px;
+      line-height: 1.6;
+      margin: 0;
+    }
+    .back-home {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="error-container">
+      <h1 class="error-code">404</h1>
+      <h2 class="error-title">Lost in Latent Space</h2>
+      <p class="error-desc">
+        The page you are looking for doesn't exist or has been moved to another coordinate.
+      </p>
+      <a href="/" class="btn-primary back-home">Back to Home</a>
+    </div>
+  </main>
+</body>
+</html>
