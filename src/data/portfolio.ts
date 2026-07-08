@@ -36,7 +36,7 @@ export const links = {
   linkedin: "https://www.linkedin.com/in/rashaljeetsingh",
   twitter: "https://x.com/RashalHQ",
   resume:
-    "https://drive.google.com/file/d/1tdGKez2TcznWs8UVhRfNTbWd4TyZLHMt/view?usp=sharing",
+    "https://drive.google.com/file/d/1qSgLMfcM46I9jc5L9M1poPEFvj_SX3zk/view?usp=sharing",
 };
 
 export const about = {
