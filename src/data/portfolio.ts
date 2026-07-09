@@ -66,6 +66,8 @@ export const galleryPhotos = [
   { id: "photo-08", src: "/photos/photo-08.png", alt: "DOOM Eternal — Doom Slayer" },
   { id: "photo-09", src: "/photos/photo-09.png", alt: "Batman in the rain" },
   { id: "photo-10", src: "/photos/photo-10.png", alt: "AC/DC band portrait" },
+  { id: "photo-11", src: "/photos/photo-11.png", alt: "Glitch-art Versailles gardens" },
+  { id: "photo-12", src: "/photos/photo-12.png", alt: "Pixel art underwater whales and ruins" },
 ];
 
 export const education = {
